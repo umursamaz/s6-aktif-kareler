@@ -1,0 +1,40 @@
+.container {
+  max-width: 480px;
+  width: 96%;
+  margin: 30px auto;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.squares {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 1rem;
+  gap: 1rem 0;
+}
+
+.square {
+  aspect-ratio: 1/1;
+  flex: 0 0 48%;
+  border: 2px dashed #ccc;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #eee;
+}
+
+.square.active {
+  background-color: lightgreen;
+  border: 3px solid black;
+}
