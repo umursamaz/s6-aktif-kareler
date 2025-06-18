@@ -1,0 +1,29 @@
+{
+  "stats": "6 passed, 0 failed out of 6",
+  "tests": [
+    {
+      "name": "Dosyada state kullanılıyor mu",
+      "state": "pass"
+    },
+    {
+      "name": "Kareler ekranda doğru şekilde oluşmuş",
+      "state": "pass"
+    },
+    {
+      "name": "Sayfa ilk yüklendiğinde seçili bir kare yok",
+      "state": "pass"
+    },
+    {
+      "name": "Tıklanan kareye active classı ekleniyor.",
+      "state": "pass"
+    },
+    {
+      "name": "Bir kareye 2 kere tıklanınca active classı eklenip kaldırılıyor",
+      "state": "pass"
+    },
+    {
+      "name": "Bir kareye tıklanınca diğer karalerdeki active classı kaldırılıyor",
+      "state": "pass"
+    }
+  ]
+}
